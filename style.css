@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    background-color: rgb(148, 226, 148);
+  }
+  
+  header{
+    background: linear-gradient(to bottom, #025951, #02735E, #038C3E);
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.397);
+    max-width: 2000px;
+    min-width: 400px;
+    margin: auto;
+  }
+  header > h1{
+    font-family: 'Kanit', sans-serif;
+    margin-top: 0%;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    
+  }
+  header > p{
+    text-align: center;
+    margin-top: 40px;
+    color: rgba(255, 255, 255, 0.712);
+  }
+  
+  nav{
+    color: rgb(255, 255, 255);
+    padding-top: 40px;
+    margin-left: 20px;
+  }
+  .link{
+    margin-left: 20px;
+    font-size: 1.2em;
+  }
+
+  a:hover{
+    color: yellow;
+  }
+
+  .Link_texto{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #025951;
+    text-decoration: none;
+    font-weight: 800;
+  }
+  .Link_texto:visited{
+    color: #025951;
+  }
+  
+  main{
+    border-radius: 10px; 
+    background-color: white;
+    max-width: 800px;
+    min-width: 400px;
+    margin: auto;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.397);
+  }
+  section > h1{
+    font-family: android, Arial, Helvetica, sans-serif;
+    color: #038C3E;
+  }
+  article > h2{
+    color: #038C3E;
+    background-color: rgba(144, 238, 144, 0.342);
+    font-family: android, Arial, Helvetica, sans-serif;
+  }
+#video{
+    background-color: #025951;
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+
+#lista{
+    background-color:#53e79371;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.226);
+}
+
+h3{
+    padding: 10px;
+    background-color: #30d879;
+    margin-left: -19px;
+    border-radius: 10px;
+    max-width: 800px;
+    min-width: 400px;
+  }
+
+span{
+  float: inline-end;
+}
+
+
+picture{
+  width: 100%;
+}
